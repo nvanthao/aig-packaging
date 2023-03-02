@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [vue()],
   base: "/aig-packaging/",
   build: {
-    assetsDir: "/aig-packaging/assets/"
+    assetsDir: "aig-packaging/assets/"
   }
 })
