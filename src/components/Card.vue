@@ -14,7 +14,7 @@ defineProps({
 
 <template>
   <div class="card card-compact w-96 bg-base-100 shadow-lg">
-    <figure><img :src="`/assets/${imageUrl}`" :alt="title" /></figure>
+    <figure><img :src="`./assets/${imageUrl}`" :alt="title" /></figure>
     <div class="card-body">
       <h2 class="card-title">{{ title }}</h2>
     </div>
