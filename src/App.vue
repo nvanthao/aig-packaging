@@ -8,7 +8,7 @@ import Map from './components/Map.vue'
 </script>
 
 <template>
-  <div class="font-serif flex flex-col min-h-screen overflow-hidden">
+  <div class="font-sans flex flex-col min-h-screen overflow-hidden bg-secondary-50">
     <NavBar />
 
     <main class="flex-grow">
